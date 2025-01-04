@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" type="image/png" href="./img/calculadora.png">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="tab-container">
+        <button class="tab-button active" data-tab="standard">Estándar</button>
+        <button class="tab-button" data-tab="scientific">Científica</button>
+    </div>
+    <div id="standard" class="calculator-section active">
+        <div class="calculator-container">
+            <div class="results-container">
+                <p id="result-standard"></p>
+            </div>
+            <div class="other-container">
+                <button id="deleteBtn">Delete</button>
+            </div>
+            <div class="buttons-container">
+                <button id="resetBtn">C</button>
+                <button id="parenthesisBtn">()</button>
+                <button id="percentageBtn">%</button>
+                <button id="divisionBtn">/</button>
+                <button id="sevenBtn">7</button>
+                <button id="eightBtn">8</button>
+                <button id="nineBtn">9</button>
+                <button id="multiplicationBtn">x</button>
+                <button id="fourBtn">4</button>
+                <button id="fiveBtn">5</button>
+                <button id="sixBtn">6</button>
+                <button id="minusBtn">-</button>
+                <button id="oneBtn">1</button>
+                <button id="twoBtn">2</button>
+                <button id="threeBtn">3</button>
+                <button id="plusBtn">+</button>
+                <button id="simbolBtn">+/-</button>
+                <button id="ceroBtn">0</button>
+                <button id="commaBtn">,</button>
+                <button id="equalBtn">=</button>
+            </div>
+        </div>
+    </div>
+    <div id="scientific" class="calculator-section">
+        <div class="calculator-container">
+            <div class="results-container">
+                <p id="result-scientific"></p>
+            </div>
+            <div class="other-container">
+                <button id="deleteBtn">Delete</button>
+            </div>
+            <div class="buttons-container">
+                <!-- Botones de la calculadora científica -->
+                <button id="sqrtBtn">√</button>
+                <button id="powBtn">x²</button>
+                <button id="piBtn">π</button>
+                <button id="expBtn">exp</button>
+                <button id="logBtn">log</button>
+                <button id="sinBtn">sin</button>
+                <button id="cosBtn">cos</button>
+                <button id="tanBtn">tan</button>
+                <!-- Otros botones de la calculadora estándar -->
+                <button id="resetBtn">C</button>
+                <button id="parenthesisBtn">()</button>
+                <button id="percentageBtn">%</button>
+                <button id="divisionBtn">/</button>
+                <button id="sevenBtn">7</button>
+                <button id="eightBtn">8</button>
+                <button id="nineBtn">9</button>
+                <button id="multiplicationBtn">x</button>
+                <button id="fourBtn">4</button>
+                <button id="fiveBtn">5</button>
+                <button id="sixBtn">6</button>
+                <button id="minusBtn">-</button>
+                <button id="oneBtn">1</button>
+                <button id="twoBtn">2</button>
+                <button id="threeBtn">3</button>
+                <button id="plusBtn">+</button>
+                <button id="simbolBtn">+/-</button>
+                <button id="ceroBtn">0</button>
+                <button id="commaBtn">,</button>
+                <button id="equalBtn">=</button>
+            </div>
+        </div>
+    </div>
+    <!-- ######################### S c r i p t  J S ######################### -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
